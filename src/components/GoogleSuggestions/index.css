@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.google-search-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .google-search-container {
+    text-align: center;
+  }
+}
+
+.google-logo {
+  height: 110px;
+}
+
+@media (max-width: 768px) {
+  .google-logo {
+    height: 60px;
+  }
+}
+
+.google-search-card-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 15px;
+  border-width: 0px;
+  padding: 10px;
+  min-width: 450px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .google-search-card-container {
+    min-width: 100px;
+  }
+}
+
+.search-bar-container {
+  display: flex;
+}
+
+.search-logo {
+  width: 23px;
+  margin-right: 5px;
+}
+
+.search-bar {
+  border: 0px;
+  font-size: 15px;
+  width: 100%;
+  color: #64748b;
+  cursor: pointer;
+  outline: none;
+}
+
+.suggestions-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
